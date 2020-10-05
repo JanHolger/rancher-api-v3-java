@@ -11,4 +11,7 @@ public class RancherException extends Exception {
         this.error = error;
     }
 
+    public Error getError() {
+        return error;
+    }
 }
